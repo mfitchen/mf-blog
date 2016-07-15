@@ -13,7 +13,7 @@ Project Requirements & Objectives  | Complete
 *Required*: Using Sass, create a blog page template. | --
 *Required*: Include styles for navigation, individual posts, and comments. | --
 *Objective*: Stylesheets are organized using partials and easy to understand. | --
-*Objective*: Nesting is no more than four levels deep. | --
+*Objective*: Nesting is no more than four levels deep. | X
 *Objective*: Variables are used effectively. | --
 *Objectives*: At least one use of a Sass color function. | --
 *Objectives*: At least one use of ``@extend``. | --
@@ -21,8 +21,8 @@ Project Requirements & Objectives  | Complete
 *Objectives*: At least one ``@mixin`` of your own. | --
 *Objective*: Page is responsive (with at least one breakpoint) using Sass-style media queries and/or the Neat grid. | --
 *Objective*: Responds to: **Mobile Screens**. | X
-*Objective*: Responds to: **Tablet Screens**. | --
-*Objective*: Responds to: **Desktop Screens**. | --
+*Objective*: Responds to: **Tablet Screens**. | X
+*Objective*: Responds to: **Desktop Screens**. | X
 
 ## Setup/Installation Requirements
 
