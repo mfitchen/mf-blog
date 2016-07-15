@@ -1,0 +1,165 @@
+.container {
+  @include outer-container(80%);
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+body h2 {
+  font-size: 1.5em;
+}
+
+.top-row-content, .bottom-row-content {
+  height: 250px;
+  @include span-columns(12);
+}
+.bottom-row-content {
+  margin-top: $spacing
+}
+.sidebar {
+  width: 250px;
+  height: 550px;
+  float: left;
+  margin-right: $spacing;
+  padding-left: 1%;
+  & h4 {
+     border-top: 1px solid tint($color-primary,60%);
+  }
+}
+
+
+.heading {
+  @include clearfix;
+  height: 165px;
+  margin-bottom: $spacing;
+}
+.nav-bar {
+  height: 37px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;;
+}
+.card-container {
+  width: 950px;
+  float: left;
+}
+
+.right-column {
+  height: 250px;
+  @include span-columns(12 of 12);
+}
+ .second-card {
+  height: 900px;
+}
+
+.card-large {
+  height: 250px;
+  position: relative;
+  @include span-columns(9 of 12);
+  overflow: hidden;
+    img {
+      float: right;
+      height: 100%;
+      width: auto;
+  }
+}
+.card-medium {
+    height: 250px;
+    position: relative;
+  @include span-columns(3 of 12);
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+}
+.card-small {
+  height: 31%;
+  @include span-columns(3 of 12);
+  margin-bottom: $spacing + 2 ;
+  float: none;
+  width: 100%;
+  overflow: hidden;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &:nth-of-type(1) {
+  border-top: none;
+}
+}
+.sub-text {
+  position: absolute;
+  width: 100%;
+  top: 260px;
+
+}
+.british-text {
+  width: 33%;
+  float: left;
+}
+
+@for $i from 2 through 3 {
+  .card-#{$i} {
+    height: 300px;
+  }
+   #card-#{$i} {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .card-container {
+      width: 100%;
+      margin: 0;
+  }
+  .top-row-content, .bottom-row-content {
+    margin: 0;
+    width: 100%;
+    height: 50%;
+  }
+  .right-column {
+    margin: 0;
+    width: 100%;
+    height: 90%;
+  }
+  .sidebar {
+    display: none;
+  }
+
+  .sub-text {
+    display: none;
+  }
+
+  .card-small, .card-medium, .card-large {
+    @include span-columns(12 of 12);
+    margin-bottom: $spacing;
+    margin-top: 0;
+  }
+      .card-large {
+        height: 100%;
+        width: 100%;
+          img {
+            float: none;
+            height: auto;
+            width: 100%;
+        }
+          #card-2 {
+            height: auto;
+          }
+      }
+
+  .card-medium {
+    height: 7em;
+    img {
+      float: left;
+      width: auto;
+      height: 100%;
+    }
+  }
+  .card-small {
+
+    height: 5em;
+
+  }
+}
