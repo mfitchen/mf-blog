@@ -1,25 +1,3 @@
-@media only screen and (max-width: 500px) {
-
-  div.story-text {
-    h1 {
-      font-size: 1em;
-    }
-    h6 {
-      font-size: 0.3em;
-      i.span-sm {
-        display: none;
-      }
-    }
-    p {
-      font-size: 0.75em;
-      span.span-sm {
-        display: none;
-      }
-    }
-  }
-
-}
-
 @media only screen and (min-width: 868px) {
 
   .hamburger-menu, .hide {
@@ -46,7 +24,7 @@
   }
 
   .story {
-    @include span-columns(6 of 12);
+    @include span-columns(12 of 12);
   }
 
 }

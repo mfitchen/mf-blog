@@ -10,15 +10,15 @@ _This is an Epicodus student solo project creating a blog web page that uses Sas
 
 Project Requirements & Objectives  | Complete
 :------------- | :-------------: |
-*Required*: Using Sass, create a blog page template. | --
-*Required*: Include styles for navigation, individual posts, and comments. | --
-*Objective*: Stylesheets are organized using partials and easy to understand. | --
+*Required*: Using Sass, create a blog page template. | X
+*Required*: Include styles for navigation, individual posts, and comments. | X
+*Objective*: Stylesheets are organized using partials and easy to understand. | X
 *Objective*: Nesting is no more than four levels deep. | X
-*Objective*: Variables are used effectively. | --
-*Objectives*: At least one use of a Sass color function. | --
+*Objective*: Variables are used effectively. | X
+*Objectives*: At least one use of a Sass color function. | X
 *Objectives*: At least one use of ``@extend``. | --
-*Objectives*: At least one Bourbon ``@mixin``, function, or add-on. | --
-*Objectives*: At least one ``@mixin`` of your own. | --
+*Objectives*: At least one Bourbon ``@mixin``, function, or add-on. | X
+*Objectives*: At least one ``@mixin`` of your own. | X
 *Objective*: Page is responsive (with at least one breakpoint) using Sass-style media queries and/or the Neat grid. | X
 *Objective*: Responds to: **Mobile Screens**. | X
 *Objective*: Responds to: **Tablet Screens**. | X

@@ -11,106 +11,24 @@
 }
 
 @include list-items(inline);
-// @include list-items(inline-block);
 
-// @mixin list-items($list) {
-//  ul {
-//    padding: 0;
-//    margin: 0;
-//    &.weather {
-//      border-bottom: 1px dotted $color-secondary;
-//    }
-//      &.right li:first-of-type {
-//        padding-left: 50%;
-//        padding-right: $spacing;
-//      }
-//      &.nav {
-//        position: absolute;
-//        width: 100%;
-//        bottom: 0;
-//        left: 0;
-//        font-size: $font-size + .3em;
-//        display: $list;
-//         li {
-//           padding: .4%;
-//         }
-//       }
-//       &.right-position  {
-//           margin-left: 85%;
-//           width: 200px;
-//           height: 100%;
-//           padding-top: 5px;
-//           z-index: 900;
-//         }
-//    li {
-//      display: $list;
-//      list-style-type: none;
-//      padding-top: 2%;
-//        img.weather {
-//          border-right: 1px dotted $color-secondary;
-//          margin-left: 1%;
-//        }
-//        img.right {
-//          padding-right: 5%;
-//        }
-//      }
-//    }
-// }
-// @include list-items(inline);
-// @include list-items(inline-block);
-//
-//  @each $font-name, $font-value in $fonts {
-//    .card-#{$font-name} {
-//      font-size: $font-value;
-//      border-top: 1px solid tint($color-primary,60%);
-//     //  border-right: 1px solid $color-secondary;
-//   }
-//   //    @if .card-#{$font-name} == .card-small {
-//   //      .card-small:nth-of-type(1) {
-//   //      border-top: none;
-//   //    } @else {
-//   //      border-top: 1px solid tint($color-primary,60%);
-//   //    }
-//   //  }
-//    .#{$font-name}-large {
-//      font-size: $font-value + .4em;
-//    }
-//    .#{$font-name}-small {
-//      font-size: $font-value - .1em;
-//    }
-//  }
-//  @for $i from 1 through 6 {
-//    h#{$i} {
-//      margin: 0;
-//      padding: 3px 8px 0 8px;
-//     //  @if h#{$i} == h2 {
-//     //    border-top: 2px solid $color-primary;
-//     //  } @else {
-//     //    border-top: none;
-//     //  }
-//    }
-//  }
-//
-//
-//  @each $color-name, $color-value in $colors {
-//    .background-#{$color-name} {
-//      background-color: $color-value;
-//    }
-//    .color-#{$color-name} {
-//      color: $color-value;
-//    }
-//    .lighten-color-#{$color-name} {
-//      color: tint($color-value, 60%);
-//    }
-//    .darken-color-#{$color-name} {
-//      background-color: darken($color-value, 5%);
-//    }
-//  }
-//
-//  @mixin floating($float) {
-//    .#{$float}{
-//      float: $float;
-//    }
-//  }
-//  @include floating(right);
-//  @include floating(left);
+@mixin floating($float) {
+  .#{$float}{
+    float: $float;
+    margin-right: 20px; 
+  }
+}
+@include floating(right);
+@include floating(left);
+
+@each $color-name, $color-value in $colors {
+  .color-#{$color-name} {
+    color: $color-value;
+  }
+  .lighten-color-#{$color-name} {
+    color: tint($color-value, 60%);
+  }
+  .darken-color-#{$color-name} {
+    color: darken($color-value, 15%);
+  }
+}
