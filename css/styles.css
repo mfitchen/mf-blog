@@ -449,6 +449,7 @@ ul {
   max-height: 0;
   height: auto;
   background: #000000;
+  letter-spacing: 0.3em;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   overflow: hidden;
@@ -470,9 +471,20 @@ ul {
       background-color: #222222; }
 
 .nav-top {
-  height: 4em;
+  height: 63px;
   background-color: black;
   color: white; }
+  .nav-top li {
+    margin-right: 1em;
+    letter-spacing: 0.3em; }
+  .nav-top a {
+    text-decoration: none;
+    color: #ffffff; }
+    .nav-top a:hover {
+      color: cyan; }
+
+.menu-list {
+  display: none; }
 
 body {
   -webkit-box-sizing: border-box;
@@ -517,5 +529,23 @@ body {
       line-height: 1.5em; }
     .hover-tile-outer .hover-tile-hidden h4 {
       margin: 0 0 0.5em 0; }
+
+@media only screen and (min-width: 768px) {
+  .entire-menu {
+    display: none; }
+
+  .menu-list {
+    display: block; }
+    .menu-list ul {
+      padding: 0;
+      margin: 0; }
+      .menu-list ul li {
+        display: inline;
+        list-style-type: none;
+        padding-top: 2%; }
+
+  .nav-top {
+    padding-top: 22px;
+    padding-left: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */

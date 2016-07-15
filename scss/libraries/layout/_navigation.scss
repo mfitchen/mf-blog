@@ -1,5 +1,20 @@
 .nav-top {
-  height: 4em;
+  height: 63px;
   background-color: black;
   color: white;
+  li {
+    margin-right: 1em;
+    letter-spacing: 0.3em;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    &:hover {
+      color: cyan;
+    }
+  }
+}
+
+.menu-list {
+  display: none;
 }
