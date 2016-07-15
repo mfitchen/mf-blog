@@ -51,6 +51,28 @@
 
 }
 
+// @media only screen and (min-width: 900px) {
+//
+//   div.story-text {
+//     h1 {
+//       font-size: 0.8em;
+//     }
+//     h6 {
+//       font-size: 0.3em;
+//       i.span-sm {
+//         display: none;
+//       }
+//     }
+//     p {
+//       font-size: 0.75em;
+//       span.span-sm {
+//         display: none;
+//       }
+//     }
+//   }
+//
+// }
+
 @media only screen and (min-width: 1048px) {
 
   .hamburger-menu {
@@ -117,6 +139,14 @@
 
   .side-nav-month {
     margin-left: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .nav-top, .container-main-side-nav {
+    width: 1200px;
   }
 
 }

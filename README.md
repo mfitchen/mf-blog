@@ -19,7 +19,7 @@ Project Requirements & Objectives  | Complete
 *Objectives*: At least one use of ``@extend``. | --
 *Objectives*: At least one Bourbon ``@mixin``, function, or add-on. | --
 *Objectives*: At least one ``@mixin`` of your own. | --
-*Objective*: Page is responsive (with at least one breakpoint) using Sass-style media queries and/or the Neat grid. | --
+*Objective*: Page is responsive (with at least one breakpoint) using Sass-style media queries and/or the Neat grid. | X
 *Objective*: Responds to: **Mobile Screens**. | X
 *Objective*: Responds to: **Tablet Screens**. | X
 *Objective*: Responds to: **Desktop Screens**. | X
