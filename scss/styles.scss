@@ -11,6 +11,25 @@
 //   }
 // }
 
+@media only screen and (max-width: 420px) {
+
+  div.story-text {
+    h1 {
+      font-size: 1em;
+    }
+    h6 {
+      font-size: 0.3em;
+    }
+    p {
+      font-size: 0.75em;
+      span.span-sm {
+        display: none;
+      }
+    }
+  }
+
+}
+
 @media only screen and (min-width: 768px) {
 
   .entire-menu {
@@ -25,6 +44,19 @@
   .nav-top {
     padding-top: 22px;
     padding-left: 20px;
+  }
+
+  .container-main {
+    width: 100%;
+    padding: 3%;
+  }
+
+  .main {
+    @include span-columns(12);
+  }
+
+  .story {
+    @include span-columns(6 of 12);
   }
 
 }

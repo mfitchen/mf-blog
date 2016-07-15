@@ -498,6 +498,9 @@ body {
   padding: 3%;
   border-bottom: 1px solid lightgray; }
 
+.main-side-nav {
+  display: none; }
+
 .hover-tile-outer {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png");
   background-color: beige;
@@ -530,6 +533,15 @@ body {
     .hover-tile-outer .hover-tile-hidden h4 {
       margin: 0 0 0.5em 0; }
 
+@media only screen and (max-width: 420px) {
+  div.story-text h1 {
+    font-size: 1em; }
+  div.story-text h6 {
+    font-size: 0.3em; }
+  div.story-text p {
+    font-size: 0.75em; }
+    div.story-text p span.span-sm {
+      display: none; } }
 @media only screen and (min-width: 768px) {
   .entire-menu {
     display: none; }
@@ -546,6 +558,26 @@ body {
 
   .nav-top {
     padding-top: 22px;
-    padding-left: 20px; } }
+    padding-left: 20px; }
+
+  .container-main {
+    width: 100%;
+    padding: 3%; }
+
+  .main {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .main:last-child {
+      margin-right: 0; }
+
+  .story {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .story:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -6,11 +6,13 @@ body {
   width: 100%;
 }
 
-//.story-text,//
 .story {
   padding: 3%;
   border-bottom: 1px solid lightgray;
-  // margin-bottom: 3%;
+}
+
+.main-side-nav {
+  display: none;
 }
 
 // .container {

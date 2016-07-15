@@ -15,12 +15,12 @@ Project Requirements & Objectives  | Complete
 *Objective*: Stylesheets are organized using partials and easy to understand. | --
 *Objective*: Nesting is no more than four levels deep. | --
 *Objective*: Variables are used effectively. | --
-*Objectives*: At least one use of a Sass color function | --
-*Objectives*: At least one use of ``@extend`` | --
-*Objectives*: At least one Bourbon ``@mixin``, function, or add-on | --
-*Objectives*: At least one ``@mixin`` of your own | --
+*Objectives*: At least one use of a Sass color function. | --
+*Objectives*: At least one use of ``@extend``. | --
+*Objectives*: At least one Bourbon ``@mixin``, function, or add-on. | --
+*Objectives*: At least one ``@mixin`` of your own. | --
 *Objective*: Page is responsive (with at least one breakpoint) using Sass-style media queries and/or the Neat grid. | --
-*Objective*: Responds to: **Mobile Screens**. | --
+*Objective*: Responds to: **Mobile Screens**. | X
 *Objective*: Responds to: **Tablet Screens**. | --
 *Objective*: Responds to: **Desktop Screens**. | --
 
